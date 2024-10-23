@@ -6,9 +6,24 @@
     <title>Your Site Title</title>
     <!-- Link to the favicon hosted on GitHub Pages -->
     <link rel="icon" href="https://tenetestenet.github.io/Favicon/favicon.ico" type="image/x-icon">
+    <style>
+        /* Make the iframe responsive */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        iframe {
+            display: block;
+            border: none;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
 </head>
 <body>
     <!-- This iframe loads your Google Sheet while keeping the URL in the address bar -->
-    <iframe src="https://docs.google.com/spreadsheets/d/1aYDRpHHDTgm2RQr153FrqlvoSoNMVPD8Qb94bkfkByI/edit?usp=sharing" style="border:none;width:100%;height:100vh;"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/1aYDRpHHDTgm2RQr153FrqlvoSoNMVPD8Qb94bkfkByI/edit?usp=sharing"></iframe>
 </body>
 </html>
